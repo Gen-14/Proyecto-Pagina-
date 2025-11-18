@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetivos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container" >
+            <nav class="nav">
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <a href="#" class="logo">LOGO</a>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="justificacion.html" class="nav-link ">Justificación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="objetivo.html" class="nav-link " style="color: cornflowerblue;">Objetivos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="nosotros.html" class="nav-link ">Nosotros</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="fond2 bt">
+        <div class="container">
+            <div class="global">
+                <h1 class="head">Oportunidades que vemos</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="info">
+                <div class="res-des texto">
+                    <div class="global">
+                        <h2 class="h2-sub">Crecimiento del mercado sostenible</h2>
+                        <div class="circle">
+                            <i class="fas fa-circle"></i>
+                        </div>
+                    </div>
+                    <p class="box">
+                        En los últimos años hemos notado que cada vez más consumidores optan por
+                        marcas que tengan un próposito sostenible, hay una creciente demanda por ropa
+                        con valores ecológicos y sociales.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="disco">
+        <div class="container">
+            <div class="info">
+                <div class="res-des">
+                    <div class="global">
+                        <h2 class="h2-sub">Diferenciación en el mercado</h2>
+                        <div class="circle">
+                            <i class="fas fa-circle"></i>
+                        </div>
+                    </div>
+                    <p class="box"> 
+                        En la industria pocos ofrecen una experiencia emocional y educativa.
+                    </p>
+                </div>
+                <div class="image-group">
+                    <img src="images/obj1.jpg" alt="" style="width: 150rem; height: 40rem; margin-left: 10rem;">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="info">
+
+                <div class="image-group">
+                    <img src="images/social-1.webp" alt="" style="height: 18.7rem;">
+                    <img src="images/social-2.jpg" alt="">
+                </div>
+                <div class="res-des texto">
+                    <div class="global">
+                        <h2 class="h2-sub">Revalorización de lo artesanal</h2>
+                        <div class="circle">
+                            <i class="fas fa-circle"></i>
+                        </div>
+                    </div>
+                    <p class="box">
+                        Hay un creciente valor a las cosas artesanales que tienen una historia, de modo que podemos potenciar el
+                        trabajo de otras personas como lo son diseñadores y artistas locales.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="info">
+                <div class="res-des texto">
+                    <div class="global">
+                        <h2 class="h2-sub">Circularidad aplicada</h2>
+                        <div class="circle">
+                            <i class="fas fa-circle"></i>
+                        </div>
+                    </div>
+                    <p class="box">
+                        Pocas empresas trabajan con metodos circulares, lo que nos ayuda a dar una imagen mucho más conciente.
+                        Al un modelo de circularidad podemos estar abiertos a reparaciones, reciclaje, entre otros, lo que genera
+                        una diversificación de ingresos. 
+                    </p>
+                </div>
+                    <img src="images/obj2.jpg" alt="" style="width: 30rem; height: 40rem; ">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="info">
+
+                <div class="image-group">
+                    <img src="images/social-1.webp" alt="" style="height: 18.7rem;">
+                    <img src="images/social-2.jpg" alt="">
+                </div>
+                <div class="res-des texto">
+                    <div class="global">
+                        <h2 class="h2-sub">Uso de tecnologías</h2>
+                        <div class="circle">
+                            <i class="fas fa-circle"></i>
+                        </div>
+                    </div>
+                    <p class="box">
+                        Seremos pioneros en integrar tecnología con próposito en las prendas, como lo es el 
+                        uso de el código QR para que las personas accedan a un blog con toda la información 
+                        necesaria y además un mini blog.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+
+        const selectElement = function(element) {
+            return document.querySelector(element);
+        }
+
+
+        let menuToggle = selectElement('.menu-toggle');
+        let body = selectElement('body');
+
+        menuToggle.addEventListener('click', function(){
+            body.classList.toggle('open');
+        })
+
+    </script>
+
+    
+</body>
+</html>
